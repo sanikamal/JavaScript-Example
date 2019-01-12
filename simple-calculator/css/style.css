@@ -1,0 +1,143 @@
+/*-------------------
+    FONT STYLE
+------------------------------- */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+
+/*----------------------------
+         BODY STYLE
+---------------------------- */
+
+body {
+    background: #FFFFFF;
+    background: linear-gradient(rgb(63, 12, 42), rgb(101, 39, 134));
+    font-size: 22px;
+    font-family: "Roboto", sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+
+/*------------------------
+      HEADER
+-------------------------- */
+
+.header {
+    text-align: center;
+    background-color: #2A0C05;
+    padding: 10px 0 10px;
+    text-align: center;
+    color: #fff;
+    border-bottom: 8px solid #990A51;
+}
+
+h1 {
+    /* font-size: 60px; */
+    font-weight: bolder;
+    text-shadow: 5px 5px 5px yellowgreen;
+}
+
+
+/* ------------------------
+   MAIN CALC CONTAINER
+ -------------------------- */
+
+#calculator {
+    width: 30%;
+    height: auto;
+    margin-top: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #E0D9EC;
+    padding-top: 26px;
+}
+
+
+/* ------------------------
+   DISPLAY, CLEAR & DEL BUTTONS
+ -------------------------- */
+
+.display {
+    border: #FFFFFF solid 2px;
+    width: 80%;
+    height: 60px;
+    padding-top: 5px;
+    text-align: center;
+    float: none;
+    margin: 0 auto;
+}
+
+#clear {
+    border-radius: 0;
+    background-color: #F7C86E;
+    width: 100px;
+    height: 60px;
+    float: right;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+#backspace {
+    border-radius: 0;
+    background-color: #F7C86E;
+    width: 100px;
+    height: 60px;
+    float: right;
+    margin-right: 8px;
+    border-radius: 20px;
+}
+
+.clearBackspace {
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+/* ------------------------
+   NUMBERS ROW
+ -------------------------- */
+
+#numbers-row {
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+/* ------------------------
+    BUTTON STYLES
+ -------------------------- */
+
+button {
+    margin: 5px;
+    border-radius: 20px;
+    width: 80px;
+    height: 60px;
+    border: none;
+    background-color: #ffffff;
+}
+
+button:hover {
+    background-color: #F394B2;
+    color: #FFFFFF;
+}
+
+.opp {
+    background-color: #F394B2;
+}
+
+.decimal:hover {
+    background-color: #FFFFFF;
+    color: #888888;
+}
+
+.operator:hover {
+    background-color: #FFFFFF;
+    color: #888888;
+}
+
+.eval:hover {
+    background-color: #FFFFFF;
+    color: #888888;
+}
