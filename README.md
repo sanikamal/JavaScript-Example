@@ -6,5 +6,6 @@ JavaScript, often abbreviated as JS, is a high-level, interpreted programming la
 
 
 ## Useful code snippets
-### 1:[Modal PopUp](https://github.com/sanikamal/awesome-javascript-examples/tree/master/modal-popup)
-### 2:[Animated SlideShow](https://github.com/sanikamal/awesome-javascript-examples/tree/master/animated-slideshow)
+### 1. [Modal PopUp](https://github.com/sanikamal/awesome-javascript-examples/tree/master/modal-popup)
+### 2. [Animated SlideShow](https://github.com/sanikamal/awesome-javascript-examples/tree/master/animated-slideshow)
+### 2. [Star Rating](https://github.com/sanikamal/awesome-javascript-examples/tree/master/star-rating)
