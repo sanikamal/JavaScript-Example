@@ -1,0 +1,14 @@
+<p>A small calculator App using Javascript you can change sign in line (10) for mathematical operation.</P>
+<input type="text" id="number" size="3"> - <input type="text" id="number2" size="3"> 
+<button id="btn">Check</button> 
+<p id="para"></p> 
+ 
+<script type="text/javascript"> 
+    document.getElementById("btn").onclick = function() { 
+        var number = document.getElementById("number").value; 
+        var number2 = document.getElementById("number2").value; 
+        var result = parseInt(number) - parseInt(number2); 
+        var para = document.getElementById("para"); 
+        para.innerHTML = result;
+     }
+</script>
